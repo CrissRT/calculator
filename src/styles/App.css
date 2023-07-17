@@ -1,0 +1,74 @@
+.App {
+  background-color: #f1f1f1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+#calculator{
+  border: 2px solid #47476b;
+  padding: 5px;
+  background: black;
+  width: 320px;
+  position: relative;
+}
+
+#formula-screen {
+  min-height: 20px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 20px;
+  color: orange;
+  text-align: right;
+  vertical-align: text-top;
+  line-height: 20px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.output-screen {
+  font-size: 29px;
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+  text-align: right;
+  line-height: 35px;
+}
+
+#zero{
+  width: 50%;
+}
+
+#equals{
+  width: 25%;
+  height: 40%;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-color: #f39c12;
+}
+
+#clear{
+  width: 50%;
+}
+
+.row{
+  height: 11vh;
+}
+
+.operation-buttons, .number-buttons{
+  width: 25%;
+}
+
+.operation-buttons{
+  background-color: #3498db;
+}
+
+.number-buttons{
+  background-color: #2ecc71;
+}
+
+#clear{
+  background-color: #e74c3c;
+}
