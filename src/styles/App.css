@@ -18,21 +18,22 @@
 
 #formula-screen {
   min-height: 20px;
-  font-family: 'Orbitron', sans-serif;
   font-size: 20px;
   color: orange;
-  text-align: right;
-  vertical-align: text-top;
   line-height: 20px;
+}
+
+#formula-screen, .output-screen{
+  font-family: 'Orbitron', sans-serif;
+  vertical-align: text-top;
+  text-align: right;
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
 
 .output-screen {
   font-size: 29px;
-  font-family: 'Orbitron', sans-serif;
   color: white;
-  text-align: right;
   line-height: 35px;
 }
 
